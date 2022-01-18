@@ -16,8 +16,44 @@ body {
   line-height: 1.71;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  outline: 2px solid tomato;
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
+.container-btn {
+  padding-bottom: 200px;
 }
 
 .list {
@@ -35,6 +71,11 @@ a {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .site-logo {
@@ -92,9 +133,12 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+
+  padding-top: 200px;
 }
 
 .hero-btn {
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-weight: 700;
@@ -103,6 +147,9 @@ a {
   letter-spacing: 0.06em;
   background-color: var(--btn-color);
   cursor: pointer;
+}
+.section-features {
+  padding-top: 94px;
 }
 
 .features-title {
@@ -113,6 +160,14 @@ a {
   text-transform: uppercase;
 }
 
+.features {
+  margin-top: 50px;
+}
+
+.benefits-list {
+  margin-top: 50px;
+}
+
 .title {
   color: var(--title-color);
   font-size: 36px;
@@ -120,12 +175,17 @@ a {
   line-height: calc(42 / 36);
 }
 
+.user-list {
+  margin-top: 50px;
+}
 
 .user-subtitle {
   color: var(--title-color);
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
+
+  margin-bottom: 10px;
 }
 
 .user-item > .text {
@@ -133,20 +193,33 @@ a {
   line-height: 1.18;
 }
 
+.container-text {
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address > .footer-link {
+  display: block;
+
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
+
+  margin-top: 9px;
 }
 
 .address-text {
   color: #ffffff;
   font-style: normal;
+  margin-top: 20px;
 }
 
 /*Portfolio*/
@@ -162,6 +235,16 @@ a {
 .item-text {
   font-size: 16px;
   line-height: 1.8;
+  margin-top: 4px;
+}
+
+.container-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list-project {
+  margin-top: 34px;
 }
 
 .btn {
@@ -176,4 +259,7 @@ a {
 .btn:hover,
 .btn:focus {
   color: #ffffff;
+}
+.portfolio-section {
+  padding-top: 94px;
 }
