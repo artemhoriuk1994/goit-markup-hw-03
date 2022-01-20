@@ -147,7 +147,7 @@ a {
 }
 
 .hero {
-  background-color: #2f303a;
+  background: #2f303a;
 }
 
 .hero-title {
@@ -228,6 +228,10 @@ a {
   font-weight: 700;
   line-height: calc(42 / 36);
   text-align: center;
+}
+
+.user {
+  background: #f5f4fa;
 }
 
 .user-list {
