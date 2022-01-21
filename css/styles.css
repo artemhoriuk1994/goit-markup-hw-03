@@ -338,7 +338,6 @@ a {
   padding: 6px 22px;
   text-align: center;
 
-  min-width: 73px;
   border-style: var(--filter-btn);
   background: var(--filter-btn);
   border-radius: 4px;
